@@ -23,7 +23,32 @@
 
 ---
 
-Hi, my name is Serhii! I'm 35 years old and I'm switcher. I want to become a Front-End Developer with help of RS-School and prove to myself that I can do it.
+Hi, my name is Serhii! I'm 36 years old and I'm switcher. I want to become a Front-End Developer with help of RS-School and prove to myself that I can do it.
 I need it for feeling myself as a demanded specialist, growing professionally and mentally.
+
+---
+
+### Skills
+
+---
+
+- HTML5
+- CSS3
+- JavaScript (Basic)
+- Git-GitHub
+- Figma
+- VS Code
+
+---
+
+### Code example
+
+---
+
+```js
+multiply = function (a, b) {
+  return a * b;
+};
+```
 
 ---
