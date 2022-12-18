@@ -92,24 +92,36 @@ h6 {
 
 body {
     background-color: lightgrey;
-    padding: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
     overflow: hidden;
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto 500px;
     background-color: #fff;
+    box-shadow: 0 0 50px grey;
 }
 
 /*----------------------------header-----------------------------*/
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 0 0 70px;
+}
+
+.yellow-block {
+    width: 357px;
+    height: 100%;
+    background-color: rgb(255, 204, 0);
+}
+
 .nav-items {
     display: flex;
-    justify-content: end;
     align-items: center;
-    min-height: 80px;
 }
 
 .nav-item {
@@ -132,7 +144,13 @@ body {
 
 /*----------------------------main-----------------------------*/
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
+    max-height: 365px;
     display: flex;
     padding: 0 70px;
     background-color: rgb(33, 33, 47);
@@ -140,6 +158,14 @@ body {
 
 .main-information {
     padding: 50px;
+}
+
+.my-photo {
+    min-width: 357px;
+    height: 365px;
+    background-image: url('../img/photo.jpg');
+    background-size: 357px 365px;
+    box-shadow: inset 0px 0px 10px 10px #DBA632;
 }
 
 .my-name {
@@ -171,4 +197,98 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     color: rgb(170, 168, 168);
+}
+
+/*----------------------------aside-----------------------------*/
+
+.sidebar {
+    margin: 0 0 0 70px;
+    padding: 50px 0 0 50px;
+    width: 357px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(255, 204, 0);
+}
+
+.contacts-title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    color: rgb(33, 33, 47);
+}
+
+.contacts-items {
+    margin: 20px 30px 0 17px;
+}
+
+.contacts-items li{
+    margin: 5px 0 0 0;
+}
+
+.contacts-link {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(33, 33, 47);
+    line-height: 1.5em;
+}
+
+.contacts-image {
+    margin: 0 10px 0 0 ;
+    width: 20px;
+    height: 20px;
+}
+
+.contacts-content {
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.contacts-content:hover {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.skills-container {
+    margin: 50px 0 50px 0;
+}
+
+.skills-title {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    color: rgb(33, 33, 47);
+}
+
+.line {
+    margin-top: 5px;
+    border-top: 2px solid rgb(33, 33, 47);
+}
+
+.skills {
+    margin: 20px 30px 0 17px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(33, 33, 47);
+    line-height: 1.5em;
+}
+
+.skills li{
+    list-style:inside
+}
+
+.languages-container {
+    margin: 0 0 50px 0;
+}
+
+.code-container {
+    margin-bottom: 40px;
+}
+
+.code-example {
+    margin-top: 30px;
+    padding: 0 0 0 30px;
+    background-color: rgb(33, 33, 47);
+    color: white;
+    line-height: 1.5em;
 }
