@@ -97,6 +97,7 @@ body {
 
 .wrapper {
     overflow: hidden;
+    position: relative;
     max-width: 1440px;
     margin: 0 auto 500px;
     background-color: #fff;
@@ -364,16 +365,15 @@ body {
 
 .projects-example-item {
     position: relative;
-    margin: 0 20px 0 0;
+    margin: 10px 20px 0 0;
     padding-top: 15px;
     display: flex;
     flex-direction: column;
 }
 
 .projects-example-item:hover .travel-icon {
-    margin: 25px 0 0 0;
     background: rgba(0, 0, 0, 0.5);
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .projects-example-item:hover .item-text {
@@ -401,4 +401,36 @@ body {
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: all 1s;
+}
+
+/*----------------------------footer-----------------------------*/
+
+.footer {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 40px;
+    height: 40px;
+}
+
+.footer li:first-child {
+    margin: 0 920px 0 0;
+    font-weight: bold;
+}
+
+.footer li:nth-child(2) img {
+    margin: 0 20px 0 0 ;
+    width: 30px;
+    height: 30px;
+}
+
+.footer li:last-child {
+    width: 80px;
+    margin-right: 0;
 }
