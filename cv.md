@@ -27,3 +27,28 @@ Hi, my name is Serhii! I'm 37 years old and I'm switcher. I want to become a Fro
 I need it for feeling myself as a demanded specialist, growing professionally and mentally.
 
 ---
+
+### Skills
+
+---
+
+- HTML5
+- CSS3
+- JavaScript (Basic)
+- Git-GitHub
+- Figma
+- VS Code
+
+---
+
+### Code example
+
+---
+
+```js
+multiply = function (a, b) {
+  return a * b;
+};
+```
+
+--- 
