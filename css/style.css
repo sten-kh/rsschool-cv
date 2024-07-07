@@ -111,3 +111,61 @@ body {
 	font-size: 16px;
 	color: rgb(33, 33, 47);
 }
+
+/*----------------------------main-----------------------------*/
+
+.main {
+	display: grid;
+	grid-template: 365px 1fr / 427px 1fr 1fr;
+}
+
+.title {
+	grid-area: 1 / 1 / 2 / 4;
+	max-height: 365px;
+	display: flex;
+	padding: 0 70px;
+	background-color: rgb(33, 33, 47);
+}
+
+.main-information {
+	padding: 50px;
+}
+
+.my-photo {
+	min-width: 357px;
+	height: 365px;
+	background-image: url('../img/v0dZttkRmBI.jpg');
+	background-size: 357px 365px;
+	box-shadow: inset 0px 0px 10px 10px #DBA632;
+}
+
+.my-name {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: white;
+	width: 150px;
+}
+
+.firstname {
+	font-weight: normal;
+}
+
+.line-of-name {
+	width: 250px;
+	border-top: 2px solid rgb(255, 204, 0);
+}
+
+.my-profession {
+	margin: 10px 0 0 0;
+	font-size: 24px;
+	color: white;
+}
+
+.brief-about-me {
+	margin-top: 40px;
+	line-height: 150%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	color: rgb(170, 168, 168);
+}
