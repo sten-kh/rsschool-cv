@@ -6,6 +6,7 @@
 	padding: 0;
 	border: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 li {
 	list-style: none;
@@ -69,6 +70,7 @@ body {
     position: relative;
     max-width: 1440px;
     margin: 0 auto 500px;
+	 padding: 0;
     background-color: #fff;
     box-shadow: 0 0 50px grey;
 }
@@ -372,4 +374,36 @@ body {
 	font-weight: bold;
 	color: rgb(255, 255, 255);
 	transition: all 1s;
+}
+
+/*----------------------------footer-----------------------------*/
+
+.footer {
+	position: absolute;
+	left: 100px;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	padding-left: 60px;
+	padding-right: 40px;
+	height: 40px;
+}
+
+.footer li:first-child {
+	margin: 0 880px 0 0;
+	font-weight: bold;
+}
+
+.footer li:nth-child(2) img {
+	margin: 0 20px 0 0 ;
+	width: 30px;
+	height: 30px;
+}
+
+.footer li:last-child {
+	width: 80px;
+	margin-right: 0;
 }
