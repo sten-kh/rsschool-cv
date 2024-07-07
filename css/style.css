@@ -263,3 +263,113 @@ body {
 	color: white;
 	line-height: 1.5em;
 }
+
+/*----------------------------work-and-edu-section-----------------------------*/
+
+.edu-and-work-info {
+	grid-area: 2 / 2 / 3 / 4;
+	padding: 50px 0 0 50px;
+}
+
+.education-places h3 {
+	margin: 20px 0 10px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.education-places li p:nth-child(2) {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.education-places span {
+	padding: 0 20px;
+	font-style: normal;
+	background-color: rgb(33, 33, 47);
+	color: white;
+	border-radius: 5px;
+}
+
+.work-experiense {
+	margin: 50px 0 0 0;
+}
+
+.work-places {
+	color: rgb(33, 33, 47);
+}
+
+.work-places h3 {
+	margin: 20px 0 10px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.work-places span {
+	padding: 0 20px;
+	font-style: normal;
+	background-color: rgb(33, 33, 47);
+	color: white;
+	border-radius: 5px;
+}
+
+.work-places li p:nth-child(2) {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.work-places li p:last-child {
+	line-height: 120%;
+	letter-spacing: 0.4px;
+}
+
+.projects {
+	margin: 50px 0 0 0;
+}
+
+.projects-example {
+	display: flex;
+}
+
+.projects-example-item {
+	position: relative;
+	margin: 10px 20px 0 0;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.projects-example-item:hover .travel-icon {
+	background: rgba(0, 0, 0, 0.5);
+	transform: scale(1.1);
+}
+
+.projects-example-item:hover .item-text {
+	position: absolute;
+	z-index: 2;
+	transform: translateY(-50px);
+	font-size: 50px;
+	color: rgb(255, 204, 0);
+}
+
+.travel-icon {
+	margin: 5px 0 0 0;
+	width: 300px;
+	height: 180px;
+	background: rgba(0, 0, 0, 0.5) ;
+	transition: all 1s;
+}
+
+.item-text {
+	position: absolute;
+	z-index: 2;
+	bottom: 25px;
+	left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	transition: all 1s;
+}
